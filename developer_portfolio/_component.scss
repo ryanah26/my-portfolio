@@ -1,78 +1,77 @@
 /*---NAVIGATION STYLING---*/
 
 .navbar {
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 10vh;
-    /*border: 1px solid red;*/
-    background-color: $color-primary;
-    padding: 20px;
-    box-shadow: 0px 1px 5px $color-black;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  /*border: 1px solid red;*/
+  background-color: $color-primary;
+  padding: 20px;
+  box-shadow: 0px 1px 5px $color-black;
 }
 
 .nav-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /*border: 1px solid red;*/
-    
-    &__projects {
-        color: $color-white;
-        margin: 0px 10px;
-        font-size: 16px;
-    }
-    &__skills {
-        color: $color-white;
-        margin: 0px 20px;
-        font-size: 16px;
-    }
-    &__about {
-        color: $color-white;
-        margin: 0px 20px;
-        font-size: 16px;
-    }
-    &__contact {
-        color: $color-white;
-        margin: 0px 20px;
-        font-size: 16px;
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*border: 1px solid red;*/
+
+  &__projects {
+    color: $color-white;
+    margin: 0px 10px;
+    font-size: 16px;
+  }
+  &__skills {
+    color: $color-white;
+    margin: 0px 20px;
+    font-size: 16px;
+  }
+  &__about {
+    color: $color-white;
+    margin: 0px 20px;
+    font-size: 16px;
+  }
+  &__contact {
+    color: $color-white;
+    margin: 0px 20px;
+    font-size: 16px;
+  }
 }
 
 i {
-    color: $color-white;
-    font-size: 25px;
-    margin: 5px;
-    
+  color: $color-white;
+  font-size: 25px;
+  margin: 5px;
 }
 
 /*---HEADER STYLING---*/
 
 .hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 150px;
-    width: 90%;
-    /*border: 1px solid red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 150px;
+  width: 90%;
+  /*border: 1px solid red;*/
 
-    &__hero-title {
-        font-weight: $font-weight-large;
-        font-size: $font-size-large;
-        padding: 15px;
-        color: $color-white;
-        letter-spacing: 0.1rem;
-    }
-    &__hero-message {
-        font-size: $font-size-normal;
-        font-weight: $font-weight-normal;
-        color: $color-white;
-        width: 40%;
-        letter-spacing: 0.05em;
-        line-height: 1.6;
-    }
+  &__hero-title {
+    font-weight: $font-weight-large;
+    font-size: $font-size-large;
+    padding: 15px;
+    color: $color-white;
+    letter-spacing: 0.1rem;
+  }
+  &__hero-message {
+    font-size: $font-size-normal;
+    font-weight: $font-weight-normal;
+    color: $color-white;
+    width: 40%;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+  }
 }

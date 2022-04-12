@@ -7,7 +7,7 @@
   color: #333333;
 }
 
-a:link,
+:link,
 a:visited {
   text-decoration: none;
 }
@@ -22,8 +22,8 @@ a:visited {
   /*border: 1px solid red;*/
 }
 
-.portfolio {
-  height: 200vh;
+.projects {
+  height: 100vh;
 }
 
 /*---NAVIGATION STYLING---*/
