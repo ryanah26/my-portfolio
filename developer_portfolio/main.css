@@ -40,6 +40,12 @@ a:visited {
   box-shadow: 0px 1px 5px #333333;
 }
 
+.logo {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 1000;
+}
+
 .nav-links {
   display: flex;
   flex-direction: row;
