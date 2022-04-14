@@ -22,8 +22,19 @@ a:visited {
   /*border: 1px solid red;*/
 }
 
+.tech-stack-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #28527a;
+  /*border: 1px solid red;*/
+}
+
 .projects {
   height: 100vh;
+  width: 90%;
 }
 
 /*---NAVIGATION STYLING---*/
@@ -104,4 +115,13 @@ i {
   width: 40%;
   letter-spacing: 0.05em;
   line-height: 1.6;
+}
+
+#tech-stack-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: center;
 }

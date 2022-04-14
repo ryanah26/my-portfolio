@@ -81,3 +81,16 @@ i {
     line-height: 1.6;
   }
 }
+
+/*---TECH STACK---*/
+
+#tech-stack-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+
+
+}
