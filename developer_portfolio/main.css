@@ -12,16 +12,15 @@ a:visited {
   text-decoration: none;
 }
 
-.hero-header {
+/*.hero-header {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: #28527a;
-  /*border: 1px solid red;*/
-}
-
+  background-color: $color-primary;
+  border: 1px solid red;
+}*/
 .tech-stack-section {
   display: flex;
   flex-direction: column;
@@ -53,7 +52,7 @@ a:visited {
 
 .logo {
   color: #fafafa;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 1000;
 }
 
@@ -66,22 +65,22 @@ a:visited {
 .nav-links__projects {
   color: #fafafa;
   margin: 0px 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .nav-links__skills {
   color: #fafafa;
   margin: 0px 20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .nav-links__about {
   color: #fafafa;
   margin: 0px 20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .nav-links__contact {
   color: #fafafa;
   margin: 0px 20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 i {
@@ -91,9 +90,10 @@ i {
 }
 
 /*---HEADER STYLING---*/
-#header-image {
+.header-spacer {
   width: 100%;
-  height: 100vh;
+  height: 7vh;
+  background-color: #231F20;
 }
 
 .hero-content {
@@ -101,20 +101,25 @@ i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding-top: 150px;
-  width: 90%;
-  /*border: 1px solid red;*/
 }
-.hero-content__hero-title {
+.hero-content #header-image {
+  width: 100%;
+  height: 120vh;
+}
+.hero-content #header-text {
+  position: absolute;
+  top: 125px;
+  left: 25px;
+}
+.hero-content #header-title {
   font-weight: 1000;
-  font-size: 40px;
-  padding: 15px;
+  font-size: 30px;
+  padding-bottom: 15px;
   color: #fafafa;
   letter-spacing: 0.1rem;
 }
-.hero-content__hero-message {
-  font-size: 16px;
+.hero-content #header-message {
+  font-size: 14px;
   font-weight: 300;
   color: #fafafa;
   width: 40%;
@@ -124,7 +129,7 @@ i {
 
 /*---TECH STACK---*/
 .article-title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 1000;
   color: #fafafa;
 }
@@ -149,8 +154,8 @@ i {
 }
 .tech-icon__tech-title {
   color: #fafafa;
-  font-size: 16px;
+  font-size: 14px;
 }
 .tech-icon .fa-brands {
-  font-size: 40px;
+  font-size: 30px;
 }
