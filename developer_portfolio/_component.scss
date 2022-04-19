@@ -84,13 +84,37 @@ i {
 
 /*---TECH STACK---*/
 
-#tech-stack-article {
+.article-title {
+  font-size: $font-size-large;
+  font-weight: $font-weight-large;
+  color: $color-white;
+}
+
+.tech-stack-article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    border: 1px solid red;
     align-items: center;
     justify-content: center;
+    color: $color-white;
+}
 
+.tech-icon {
+  // border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
 
+  &__tech-title {
+    color: $color-white;
+    font-size: $font-size-normal;
+  }
+
+  .fa-brands {
+    font-size: $font-size-large;
+  }
 }
