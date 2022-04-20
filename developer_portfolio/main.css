@@ -129,19 +129,28 @@ i {
 }
 
 /*---PROJECTS---*/
-.portfolio-projects {
+.projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
-  height: 40px;
-  width: 40px;
-  border: 1px solid red;
+  justify-items: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  height: 250px;
+  width: 400px;
 }
 
 .project-image {
-  width: 100px;
-  height: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 /*---TECH STACK---*/
