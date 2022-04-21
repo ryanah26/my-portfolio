@@ -32,6 +32,9 @@ a:visited {
 }
 
 .portfolio-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 150vh;
   width: 100%;
   background-color: #fafafa;
