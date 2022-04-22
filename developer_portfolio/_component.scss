@@ -66,6 +66,7 @@ i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $color-primary;
 
   #header-image {
     width: 100%;
@@ -154,4 +155,13 @@ i {
   .fa-brands {
     font-size: $font-size-large;
   }
+}
+
+/*---CONTACT---*/
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

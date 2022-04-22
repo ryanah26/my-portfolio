@@ -36,7 +36,13 @@ a:visited {
   align-items: center;
   justify-content: center;
   height: 150vh;
-  width: 100%;
+  max-width: 100%;
+  background-color: #231F20;
+}
+
+.contact-section {
+  height: 30vh;
+  max-width: 100%;
   background-color: #231F20;
 }
 
@@ -105,6 +111,7 @@ i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #231F20;
 }
 .hero-content #header-image {
   width: 100%;
@@ -187,4 +194,12 @@ i {
 }
 .tech-icon .fa-brands {
   font-size: 30px;
+}
+
+/*---CONTACT---*/
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
