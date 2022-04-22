@@ -26,25 +26,29 @@
   /*border: 1px solid red;*/
 
   &__projects {
-    color: $color-white;
+    color: $color-secondary;
     margin: 0px 10px;
     font-size: $font-size-normal;
   }
   &__skills {
-    color: $color-white;
+    color: $color-secondary;
     margin: 0px 20px;
     font-size: $font-size-normal;
   }
   &__about {
-    color: $color-white;
+    color: $color-secondary;
     margin: 0px 20px;
     font-size: $font-size-normal;
   }
   &__contact {
-    color: $color-white;
+    color: $color-secondary;
     margin: 0px 20px;
     font-size: $font-size-normal;
   }
+}
+.nav-fade:hover {
+  transition: 0.3s ease-in-out;
+  color: $color-white;
 }
 
 i {
@@ -87,7 +91,7 @@ i {
   #header-message {
     font-size: $font-size-normal;
     font-weight: $font-weight-normal;
-    color: $color-white;
+    color: $color-secondary;
     width: 40%;
     letter-spacing: 0.05em;
     line-height: 1.6;

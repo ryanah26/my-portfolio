@@ -73,24 +73,29 @@ a:visited {
   /*border: 1px solid red;*/
 }
 .nav-links__projects {
-  color: #fafafa;
+  color: #b5b5b5;
   margin: 0px 10px;
   font-size: 14px;
 }
 .nav-links__skills {
-  color: #fafafa;
+  color: #b5b5b5;
   margin: 0px 20px;
   font-size: 14px;
 }
 .nav-links__about {
-  color: #fafafa;
+  color: #b5b5b5;
   margin: 0px 20px;
   font-size: 14px;
 }
 .nav-links__contact {
-  color: #fafafa;
+  color: #b5b5b5;
   margin: 0px 20px;
   font-size: 14px;
+}
+
+.nav-fade:hover {
+  transition: 0.3s ease-in-out;
+  color: #fafafa;
 }
 
 i {
@@ -132,7 +137,7 @@ i {
 .hero-content #header-message {
   font-size: 14px;
   font-weight: 300;
-  color: #fafafa;
+  color: #b5b5b5;
   width: 40%;
   letter-spacing: 0.05em;
   line-height: 1.6;
