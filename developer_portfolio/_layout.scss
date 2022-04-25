@@ -29,6 +29,10 @@
 }
 
 .contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 50vh;
   max-width: 100%;
   background-color: $color-primary;

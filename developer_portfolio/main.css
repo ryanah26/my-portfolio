@@ -42,6 +42,10 @@ a:visited {
 }
 
 .contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 50vh;
   max-width: 100%;
   background-color: #231F20;
@@ -145,6 +149,13 @@ i {
 }
 
 /*---PROJECTS---*/
+.project-heading {
+  font-size: 30px;
+  font-weight: 1000;
+  color: #fafafa;
+  margin-bottom: 100px;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -209,6 +220,13 @@ i {
 }
 
 /*---CONTACT---*/
+.contact-heading {
+  font-size: 30px;
+  font-weight: 1000;
+  color: #fafafa;
+  margin-bottom: 50px;
+}
+
 .contact-container {
   display: flex;
   flex-direction: column;
