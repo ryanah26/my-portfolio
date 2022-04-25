@@ -37,3 +37,11 @@
   max-width: 100%;
   background-color: $color-primary;
 }
+
+.section-line {
+  height: 0.5px;
+  width: 60%;
+  color: $color-secondary;
+  opacity: 0.5;
+  margin-top: 40px;
+}
