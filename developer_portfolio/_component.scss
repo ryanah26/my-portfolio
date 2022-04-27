@@ -169,14 +169,19 @@ i {
   width: 100px;
   padding: 100px;
 
-  &__tech-title {
-    color: $color-white;
-    font-size: $font-size-normal;
-  }
-
   .fa-brands {
     font-size: $font-size-large;
   }
+}
+.tech-title {
+  color: $color-white;
+  font-size: $font-size-normal;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tech-icon:hover .tech-title {
+  opacity: 1;
 }
 
 /*---CONTACT---*/

@@ -228,12 +228,19 @@ i {
   width: 100px;
   padding: 100px;
 }
-.tech-icon__tech-title {
-  color: #fafafa;
-  font-size: 14px;
-}
 .tech-icon .fa-brands {
   font-size: 30px;
+}
+
+.tech-title {
+  color: #fafafa;
+  font-size: 14px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tech-icon:hover .tech-title {
+  opacity: 1;
 }
 
 /*---CONTACT---*/
