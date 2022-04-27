@@ -25,22 +25,22 @@ a:visited {
   background-color: $color-primary;
   border: 1px solid red;
 }*/
-.tech-stack-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 75vh;
-  background-color: #231F20;
-}
-
 .portfolio-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 150vh;
+  height: 170vh;
   max-width: 100%;
+  background-color: #231F20;
+}
+
+.tech-stack-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: #231F20;
 }
 
@@ -164,7 +164,7 @@ i {
   font-size: 30px;
   font-weight: 1000;
   color: #fafafa;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .projects-container {
@@ -183,6 +183,12 @@ i {
   height: 250px;
   width: 400px;
   padding: 15px;
+  margin-bottom: 25px;
+}
+
+.card1 {
+  position: relative;
+  transform: translateY(100px);
 }
 
 .project-image {
