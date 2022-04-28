@@ -125,9 +125,30 @@ i {
   padding: 15px;
   margin-bottom: 25px;
 }
-.card1 {
-  position: relative;
-  transform: translateY(100px);
+
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__card-title {
+    color: $color-white;
+  }
+
+  &__project-icon {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.project-icon-color {
+  color: $color-white;
+}
+
+.icon-text {
+  font-size: $font-size-small;
+  color: $color-secondary;
+  padding-left: 10px;
 }
 
 .project-image {

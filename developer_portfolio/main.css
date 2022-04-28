@@ -79,7 +79,7 @@ a:visited {
 .logo {
   color: #fafafa;
   font-size: 14px;
-  font-weight: 1000;
+  font-weight: 900;
 }
 
 .nav-links {
@@ -144,7 +144,7 @@ i {
   left: 25px;
 }
 .hero-content #header-title {
-  font-weight: 1000;
+  font-weight: 900;
   font-size: 30px;
   padding-bottom: 15px;
   color: #fafafa;
@@ -162,7 +162,7 @@ i {
 /*---PROJECTS---*/
 .project-heading {
   font-size: 30px;
-  font-weight: 1000;
+  font-weight: 900;
   color: #fafafa;
   margin-bottom: 70px;
 }
@@ -186,9 +186,27 @@ i {
   margin-bottom: 25px;
 }
 
-.card1 {
-  position: relative;
-  transform: translateY(100px);
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card2__card-title {
+  color: #fafafa;
+}
+.card2__project-icon {
+  display: flex;
+  align-items: center;
+}
+
+.project-icon-color {
+  color: #fafafa;
+}
+
+.icon-text {
+  font-size: 12px;
+  color: #b5b5b5;
+  padding-left: 10px;
 }
 
 .project-image {
@@ -206,7 +224,7 @@ i {
 /*---TECH STACK---*/
 .article-title {
   font-size: 30px;
-  font-weight: 1000;
+  font-weight: 900;
   color: #fafafa;
 }
 
@@ -246,7 +264,7 @@ i {
 /*---CONTACT---*/
 .contact-heading {
   font-size: 30px;
-  font-weight: 1000;
+  font-weight: 900;
   color: #fafafa;
   margin-bottom: 15px;
 }
