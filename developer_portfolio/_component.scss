@@ -122,14 +122,15 @@ i {
 .card {
   height: 250px;
   width: 400px;
-  padding: 15px;
-  margin-bottom: 25px;
+  padding: 25px;
+  margin-bottom: 50px;
 }
 
 .card2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 5px;
 
   &__card-title {
     color: $color-white;
