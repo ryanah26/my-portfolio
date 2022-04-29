@@ -121,22 +121,22 @@ i {
 }
 
 /*---HEADER STYLING---*/
-.header-spacer {
-  width: 100%;
-  height: 7vh;
-  background-color: #231F20;
-}
-
 .hero-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #231F20;
+  height: 135vh;
 }
 .hero-content #header-image {
   width: 100%;
   height: 120vh;
+}
+@media screen and (max-width: 1250px) {
+  .hero-content #header-image {
+    height: 90vh;
+  }
 }
 .hero-content #header-text {
   position: absolute;
@@ -182,6 +182,10 @@ i {
 @media screen and (max-width: 800px) {
   .projects-container {
     grid-template-columns: 1fr;
+  }
+
+  .portfolio-section {
+    height: 200vh;
   }
 }
 .project {
@@ -241,8 +245,8 @@ i {
 
 .tech-stack-article {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   color: #fafafa;

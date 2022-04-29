@@ -59,22 +59,23 @@ i {
 
 /*---HEADER STYLING---*/
 
-.header-spacer {
-  width: 100%;
-  height: 7vh;
-  background-color: $color-primary;
-}
-
 .hero-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: $color-primary;
+  height: 135vh;
 
   #header-image {
     width: 100%;
     height: 120vh;
+  }
+
+  @media screen and (max-width: 1250px) {
+    #header-image {
+      height: 90vh;
+    }
   }
   #header-text {
     position: absolute;
@@ -123,6 +124,9 @@ i {
 @media screen and (max-width: 800px) {
   .projects-container {
     grid-template-columns: 1fr;
+  }
+  .portfolio-section {
+    height: 200vh;
   }
 }
 
