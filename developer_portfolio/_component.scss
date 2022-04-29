@@ -114,6 +114,18 @@ i {
   align-items: center;
 }
 
+@media screen and (max-width: 1250px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 .project {
   display: flex;
   flex-direction: column;
@@ -174,11 +186,17 @@ i {
 
 .tech-stack-article {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   color: $color-white;
+}
+
+@media screen and (max-width: 1250px) {
+  .tech-stack-article {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .tech-icon {
