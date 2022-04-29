@@ -77,6 +77,11 @@ i {
       height: 90vh;
     }
   }
+  @media screen and (max-width: 800px) {
+    #header-image {
+      height: 70vh;
+    }
+  }
   #header-text {
     position: absolute;
     top: 125px;
@@ -126,7 +131,7 @@ i {
     grid-template-columns: 1fr;
   }
   .portfolio-section {
-    height: 200vh;
+    height: 2500px;
   }
 }
 
