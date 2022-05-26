@@ -83,49 +83,35 @@ a:visited {
   padding: 20px;
   box-shadow: 0px 1px 5px #333333;
 }
-
-.logo {
+.navbar .navbar__logo {
   color: #fafafa;
   font-size: 14px;
   font-weight: 900;
 }
-
-.nav-links {
+.navbar .navbar__nav-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   /*border: 1px solid red;*/
 }
-.nav-links__projects {
-  color: #b5b5b5;
-  margin: 0px 10px;
-  font-size: 14px;
-}
-.nav-links__skills {
+.navbar .navbar__nav-links .navbar__nav-link {
   color: #b5b5b5;
   margin: 0px 20px;
-  font-size: 14px;
+  font-size: 300;
 }
-.nav-links__about {
-  color: #b5b5b5;
-  margin: 0px 20px;
-  font-size: 14px;
-}
-.nav-links__contact {
-  color: #b5b5b5;
-  margin: 0px 20px;
-  font-size: 14px;
-}
-
-.nav-fade:hover {
+.navbar .navbar__nav-links .navbar__nav-link_fade:hover {
   transition: 0.3s ease-in-out;
   color: #fafafa;
 }
-
-i {
+.navbar .navbar__icon {
   color: #fafafa;
   font-size: 25px;
   margin: 5px;
+}
+@media screen and (max-width: 800px) {
+  .navbar__icon-links {
+    display: none;
+  }
 }
 
 /*---HEADER STYLING---*/
