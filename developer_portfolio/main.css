@@ -25,7 +25,7 @@ a:visited {
   background-color: $color-primary;
   border: 1px solid red;
 }*/
-.portfolio-section {
+.portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +62,7 @@ a:visited {
   margin-top: 25px;
 }
 
-.section-lineline {
+.dividing-line {
   height: 0.5px;
   width: 90%;
   background-color: #b5b5b5;
@@ -115,7 +115,7 @@ a:visited {
 }
 
 /*---HEADER STYLING---*/
-.header-section {
+.header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -123,28 +123,28 @@ a:visited {
   background-color: #1b191a;
   height: 145vh;
 }
-.header-section .header-image {
+.header .header__landing-image {
   width: 100%;
   height: auto;
 }
 @media screen and (max-width: 768px) {
-  .header-section .header-section {
+  .header .header {
     height: 80vh;
   }
 }
-.header-section #header-text {
+.header #header__text {
   position: absolute;
   top: 125px;
   left: 25px;
 }
-.header-section #header-title {
+.header #header__title {
   font-weight: 900;
   font-size: 30px;
   padding-bottom: 15px;
   color: #fafafa;
   letter-spacing: 0.1rem;
 }
-.header-section #header-message {
+.header #header__message {
   font-size: 14px;
   font-weight: 300;
   color: #b5b5b5;
@@ -154,83 +154,74 @@ a:visited {
 }
 
 /*---PROJECTS---*/
-.project-heading {
+.portfolio__heading {
   font-size: 30px;
   font-weight: 900;
   color: #fafafa;
 }
 
-.projects-container {
+.portfolio__projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
 }
-
 @media screen and (max-width: 1250px) {
-  .projects-container {
+  .portfolio__projects-container .projects-container {
     grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (max-width: 800px) {
-  .projects-container {
+  .portfolio__projects-container .portfolio__projects-container {
     grid-template-columns: 1fr;
   }
-
-  .portfolio-section {
+  .portfolio__projects-container .portfolio {
     height: 2500px;
   }
 }
-.project {
+.portfolio__projects-container .portfolio__project {
   display: flex;
   flex-direction: column;
 }
-
-.card {
+.portfolio__projects-container .portfolio__project .portfolio__card {
   height: 250px;
   width: 400px;
   padding: 25px;
   margin-bottom: 75px;
 }
-
-.card2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 5px;
-}
-.card2__card-title {
-  color: #fafafa;
-}
-.card2__project-icon {
-  display: flex;
-  align-items: center;
-}
-
-.project-icon-color {
-  color: #b5b5b5;
-}
-
-.project-icon-color:hover {
-  color: #fafafa;
-}
-
-.icon-text {
-  font-size: 12px;
-  color: #b5b5b5;
-  padding-left: 10px;
-}
-
-.project-image {
+.portfolio__projects-container .portfolio__project .portfolio__card .portfolio__image {
   height: 100%;
   width: 100%;
   object-fit: fill;
   opacity: 0.5;
 }
-
-.img-fade-in:hover {
+.portfolio__projects-container .portfolio__project .portfolio__card .portfolio__image_fade-in:hover {
   transition: 0.3s ease-in-out;
   opacity: 1;
+}
+.portfolio__projects-container .portfolio__project .portfolio__card .portfolio__project-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+.portfolio__projects-container .portfolio__project .portfolio__card .portfolio__project-description .portfolio__project-title {
+  color: #fafafa;
+}
+.portfolio__projects-container .portfolio__project .portfolio__card .portfolio__project-description .portfolio__icon-link {
+  display: flex;
+  align-items: center;
+}
+.portfolio__projects-container .portfolio__project .portfolio__card .portfolio__project-description .portfolio__icon_color {
+  color: #b5b5b5;
+}
+.portfolio__projects-container .portfolio__project .portfolio__card .portfolio__project-description .portfolio__icon_color:hover {
+  color: #fafafa;
+}
+.portfolio__projects-container .portfolio__project .portfolio__card .portfolio__project-description .portfolio__icon-text {
+  font-size: 12px;
+  color: #b5b5b5;
+  padding-left: 10px;
 }
 
 /*---TECH STACK---*/
