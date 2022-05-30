@@ -228,25 +228,36 @@
 
 /*---CONTACT---*/
 
-.contact-chat {
+.contact__chat {
   font-size: $font-size-large;
   font-weight: $font-weight-large;
   color: $color-white;
   margin-bottom: 50px;
 }
 
-.contact-heading {
+.contact__heading {
   font-size: $font-size-normal;
   font-weight: $font-weight-large;
   color: $color-white;
   margin-bottom: 50px;
 }
 
-.contact-container {
+.contact__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  .contact__icons {
+
+    .contact__icon-link {
+      .contact__icon {
+        font-size: $font-size-large;
+        color: $color-white;
+        padding: 5px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1250px) {
