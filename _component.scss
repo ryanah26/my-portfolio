@@ -70,19 +70,19 @@
     }
   }
 
-  #header__text {
+  .header__text {
     position: absolute;
     top: 125px;
     left: 25px;
   }
-  #header__title {
+  .header__title {
     font-weight: $font-weight-large;
     font-size: $font-size-large;
     padding-bottom: 15px;
     color: $color-white;
     letter-spacing: 0.1rem;
   }
-  #header__message {
+  .header__message {
     font-size: $font-size-normal;
     font-weight: $font-weight-normal;
     color: $color-secondary;
@@ -93,6 +93,25 @@
 }
 
 /*---PROJECTS---*/
+
+.portfolio__message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  width: 100%;
+
+  .portfolio__under-development-message {
+    font-size: $font-size-normal;
+    font-weight: $font-weight-normal;
+    color: $color-secondary;
+    width: 40%;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    text-align: center;
+  }
+}
 
 .portfolio__heading {
   font-size: $font-size-large;
@@ -110,48 +129,48 @@
   .portfolio__project {
     display: flex;
     flex-direction: column;
-  
+
     .portfolio__card {
       height: 250px;
       width: 400px;
       padding: 25px;
       margin-bottom: 75px;
-  
+
       .portfolio__image {
         height: 100%;
         width: 100%;
         object-fit: fill;
         opacity: 0.5;
       }
-  
+
       .portfolio__image_fade-in:hover {
         transition: 0.3s ease-in-out;
         opacity: 1;
       }
-  
+
       .portfolio__project-description {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-top: 5px;
-      
+
         .portfolio__project-title {
           color: $color-white;
         }
-  
+
         .portfolio__icon-link {
           display: flex;
           align-items: center;
         }
-  
+
         .portfolio__icon_color {
           color: $color-secondary;
         }
-        
+
         .portfolio__icon_color:hover {
           color: $color-white;
         }
-        
+
         .portfolio__icon-text {
           font-size: $font-size-small;
           color: $color-secondary;
@@ -201,12 +220,12 @@
     justify-content: center;
     height: 100px;
     width: 100px;
-  
+
     .tech-stack__icon {
       font-size: $font-size-large;
       color: $color-white;
     }
-  
+
     .tech-stack__tech-title {
       color: $color-white;
       font-size: $font-size-normal;
@@ -249,7 +268,6 @@
   align-items: center;
 
   .contact__icons {
-
     .contact__icon-link {
       .contact__icon {
         font-size: $font-size-large;
